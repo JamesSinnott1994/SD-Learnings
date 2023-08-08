@@ -12,6 +12,10 @@ public class Main {
         // calling m1 without creating
         // any object of class Main
         m1();
+
+        // Static block example
+        System.out.println("Value of a : " + StaticBlock.a);
+        System.out.println("Value of b : " + StaticBlock.b);
     }
 
 }
