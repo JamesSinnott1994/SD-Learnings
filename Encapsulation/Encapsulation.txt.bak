@@ -1,0 +1,17 @@
+https://www.geeksforgeeks.org/encapsulation-in-java/
+
+Encapsulation in Java
+======================
+
+
+Why do we use encapsulation? What is the benefit of it?
+
+What is modularity?
+
+----
+
+Improves security of an object’s internal state by hiding it from the outside world.
+Increases modularity and maintainability by making it easier to change the implementation without affecting other parts of the code.
+Enables data abstraction, allowing objects to be treated as a single unit.
+Allows for easy addition of new methods and fields without affecting the existing code.
+Supports the object-oriented principle of information hiding, making it easier to change the implementation without affecting the rest of the code.

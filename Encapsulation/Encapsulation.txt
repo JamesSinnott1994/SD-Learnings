@@ -1,0 +1,15 @@
+https://www.geeksforgeeks.org/encapsulation-in-java/
+
+Encapsulation in Java
+======================
+
+
+Why do we use encapsulation? What is the benefit of it?
+
+What is modularity?
+
+----
+
+Can lead to increased complexity, especially if not used properly.
+Can make it more difficult to understand how the system works.
+May limit the flexibility of the implementation.
