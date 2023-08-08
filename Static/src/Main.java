@@ -16,6 +16,17 @@ public class Main {
         // Static block example
         System.out.println("Value of a : " + StaticBlock.a);
         System.out.println("Value of b : " + StaticBlock.b);
+
+        // Student Demo
+        // calling static method
+        // without instantiating Student class
+        Student.setCllg("XYZ");
+
+        Student s1 = new Student("Alice");
+        Student s2 = new Student("Bob");
+
+        s1.getStudentInfo();
+        s2.getStudentInfo();
     }
 
 }
