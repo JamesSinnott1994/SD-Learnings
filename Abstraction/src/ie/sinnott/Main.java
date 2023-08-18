@@ -1,5 +1,9 @@
 package ie.sinnott;
 
+import ie.sinnott.shape.Circle;
+import ie.sinnott.shape.Rectangle;
+import ie.sinnott.shape.Shape;
+
 public class Main {
 
     public static void main(String[] args) {

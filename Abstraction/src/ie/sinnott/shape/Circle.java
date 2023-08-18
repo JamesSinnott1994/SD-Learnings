@@ -1,4 +1,4 @@
-package ie.sinnott;
+package ie.sinnott.shape;
 
 public class Circle extends Shape{
 

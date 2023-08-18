@@ -1,4 +1,4 @@
-package ie.sinnott;
+package ie.sinnott.shape;
 
 // Java program to illustrate the concept of Abstraction
 public abstract class Shape {
