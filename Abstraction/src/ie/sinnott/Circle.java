@@ -16,7 +16,7 @@ public class Circle extends Shape{
     }
 
     @Override public String toString() {
-        return "Circle colour is " + super.getColour() + "and area is : " + area();
+        return "Circle colour is " + super.getColour() + " and area is: " + area();
     }
 
 }
