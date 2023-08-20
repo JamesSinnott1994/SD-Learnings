@@ -20,4 +20,12 @@ public class Helper {
         return a * b;
     }
 
+    // Method 3
+    // // Multiplication of 3 numbers
+    public static int Multiply(int a, int b, int c)
+    {
+        // Return product
+        return a * b * c;
+    }
+
 }
