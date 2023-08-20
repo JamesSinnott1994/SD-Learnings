@@ -1,0 +1,23 @@
+package ie.sinnott.exampleone;
+
+// Java Program for Method overloading
+// By using Different Types of Arguments
+
+// Class 1
+// Helper class
+public class Helper {
+
+    // Method with 2 integer parameters
+    public static int Multiply(int a, int b) {
+        // Returns product of integer numbers
+        return a * b;
+    }
+
+    // Method 2
+    // With same name but with 2 double parameters
+    public static double Multiply(double a, double b) {
+        // Returns product of double numbers
+        return a * b;
+    }
+
+}
