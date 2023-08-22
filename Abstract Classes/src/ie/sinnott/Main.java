@@ -1,5 +1,6 @@
 package ie.sinnott;
 
+import ie.sinnott.innerclass.D;
 import ie.sinnott.observationone.Base;
 import ie.sinnott.observationone.Derived;
 import ie.sinnott.observationtwo.DerivedTwo;
@@ -37,8 +38,12 @@ public class Main {
         System.out.println("*********************");
         System.out.println();
 
-        // **Observation Three** \\
+        // **Observation Seven -> Inner Classes** \\
+        // Instantiating the outer class
+        D outer = new D();
 
-
+        // Instantiating the inner class
+        D.E inner = outer.new E();
+        inner.myAbstractMethod();
     }
 }
