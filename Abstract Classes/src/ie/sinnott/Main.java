@@ -2,6 +2,7 @@ package ie.sinnott;
 
 import ie.sinnott.observationone.Base;
 import ie.sinnott.observationone.Derived;
+import ie.sinnott.observationtwo.DerivedTwo;
 
 public class Main {
 
@@ -21,6 +22,22 @@ public class Main {
         // We can have references of Base type.
         Base b = new Derived();
         b.fun();
+
+        System.out.println();
+        System.out.println("*********************");
+        System.out.println();
+
+        // **Observation Two** \\
+        // Creating object of class 2
+        // inside main() method
+        DerivedTwo d = new DerivedTwo();
+        d.fun();
+
+        System.out.println();
+        System.out.println("*********************");
+        System.out.println();
+
+        // **Observation Three** \\
 
 
     }
