@@ -1,4 +1,4 @@
-package ie.sinnott;
+package ie.sinnott.simple;
 
 // A simple interface
 public interface In1 {
