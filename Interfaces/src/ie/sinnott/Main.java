@@ -36,12 +36,14 @@ public class Main {
 //        System.out.println("Bike present state :");
 //        bike.printStates();
 
-        // 3. Default Interface
-        TestClass2 t = new TestClass2();
-        t.display();
+//        // 3. Default Interface
+//        TestClass2 t = new TestClass2();
+//        t.display();
+//
+//        // 4. Static methods in interface, called independently without an object
+//        In4.display();
 
-        // 4. Static methods in interface, called independently without an object
-        In4.display();
+
 
     }
 }
