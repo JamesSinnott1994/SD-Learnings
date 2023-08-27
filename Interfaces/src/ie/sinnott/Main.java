@@ -1,5 +1,6 @@
 package ie.sinnott;
 
+import ie.sinnott.bank.Dev3;
 import ie.sinnott.defaultp.TestClass2;
 import ie.sinnott.simple.TestClass;
 import ie.sinnott.staticp.In4;
@@ -43,7 +44,11 @@ public class Main {
 //        // 4. Static methods in interface, called independently without an object
 //        In4.display();
 
-
-
+        // 5. Development process - Banking program
+        Dev3 d = new Dev3();
+        d.account();
+        d.loan();
+        d.deposit();
+        d.withdraw();
     }
 }
