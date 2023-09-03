@@ -12,10 +12,26 @@ enum Colour {
 
 public class Main {
 
+
+    // enum declaration inside a class
+    enum ColourTwo {
+        ORANGE,
+        WHITE,
+        BLACK
+    }
+
     public static void main(String[] args) {
 
         Colour c1 = Colour.RED;
         System.out.println(c1);
+
+        ColourTwo c2 = ColourTwo.ORANGE;
+        System.out.println(c2);
+
+        // Day test
+        String str = "MONDAY";
+        DayTest dt = new DayTest(Day.valueOf(str));
+        dt.dayIsLike();
 
     }
 }
