@@ -33,5 +33,10 @@ public class Main {
         DayTest dt = new DayTest(Day.valueOf(str));
         dt.dayIsLike();
 
+        // Iterate over all the values in the enum using for loop
+        for (Colour var_1 : Colour.values()) {
+            System.out.println(var_1);
+        }
+
     }
 }
