@@ -38,5 +38,10 @@ public class Main {
             System.out.println(var_1);
         }
 
+        // Enum with methods
+        ColourMethods cwm = ColourMethods.RED;
+        System.out.println(c1);
+        cwm.colourInfo();
+
     }
 }
