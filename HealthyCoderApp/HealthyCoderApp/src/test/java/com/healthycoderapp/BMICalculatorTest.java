@@ -20,4 +20,18 @@ class BMICalculatorTest {
         assertTrue(recommonded);
     }
 
+    @Test
+    void Should_ReturnFalse_When_DietNotRecommended () {
+
+        // given
+        double weight = 150;
+        double height = 1.92;
+
+        // when (invoke method under test and store result in variable)
+        boolean recommonded = BMICalculator.isDietRecommended(weight, height);
+
+        // then
+        assertFalse(recommonded);
+    }
+
 }
