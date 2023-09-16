@@ -3,6 +3,9 @@ package com.healthycoderapp;
 import org.junit.Test;
 import org.junit.jupiter.api.function.Executable;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class BMICalculatorTest {
@@ -47,6 +50,26 @@ public class BMICalculatorTest {
 
         // then
         assertThrows(ArithmeticException.class, executable);
+    }
+
+    @Test // If annotation is not added, method will not be executed as a unit test
+    public void should_ReturnCoderWithWorstBMI_When_CoderListNotEmpty() {
+
+        // given (create list of coders)
+        List<Coder> coders = new ArrayList<>();
+        coders.add(new Coder(1.80, 60.0));
+        coders.add(new Coder(1.82, 98.0));
+        coders.add(new Coder(1.82, 64.7));
+
+        // when
+        Coder coderWorstBMI = BMICalculator.findCoderWithWorstBMI(coders);
+
+        // then (matches coder with worst bmi score)
+        assertAll(
+            () -> assertEquals(1.82, coderWorstBMI.getHeight()),
+            () -> assertEquals(98.0, coderWorstBMI.getWeight())
+        );
+
     }
 
 }
