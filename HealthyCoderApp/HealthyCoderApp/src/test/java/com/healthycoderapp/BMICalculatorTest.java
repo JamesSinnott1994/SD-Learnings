@@ -1,6 +1,8 @@
 package com.healthycoderapp;
 
-import org.junit.Test;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.function.Executable;
 
 import java.util.ArrayList;
@@ -9,6 +11,16 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class BMICalculatorTest {
+
+    @BeforeAll
+    public static void beforeAll() {
+        System.out.println("Before all unit tests.");
+    }
+
+    @AfterAll
+    public static void afterAll() {
+        System.out.println("After all unit tests.");
+    }
 
     @Test
     public void Should_ReturnTrue_When_DietRecommended () {
