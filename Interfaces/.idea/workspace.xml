@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a49a71a-e3cf-442d-87d7-a194310d5384" name="Changes" comment="" />
+    <list default="true" id="3a49a71a-e3cf-442d-87d7-a194310d5384" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../HealthyCoderApp/HealthyCoderApp/HealthyCoderApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HealthyCoderApp/HealthyCoderApp/HealthyCoderApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HealthyCoderApp/HealthyCoderApp/src/test/java/com/healthycoderapp/BMICalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HealthyCoderApp/HealthyCoderApp/src/test/java/com/healthycoderapp/BMICalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces.rtf" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces.rtf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
