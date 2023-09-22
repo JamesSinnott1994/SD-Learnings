@@ -1,9 +1,8 @@
 package com.healthycoderapp;
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.Nested;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.condition.DisabledOnOs;
+import org.junit.jupiter.api.condition.OS;
 import org.junit.jupiter.api.function.Executable;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
@@ -78,8 +77,11 @@ public class BMICalculatorTest {
     }
 
     @Nested
+    @DisplayName("{{}} sample inner class display name")
     class FindCoderWithWorstBMI {
         @Test // If annotation is not added, method will not be executed as a unit test
+        @DisplayName(">>>> sample method display name")
+        @DisabledOnOs(OS.WINDOWS)
         public void should_ReturnCoderWithWorstBMI_When_CoderListNotEmpty() {
 
             // given (create list of coders)
